@@ -308,7 +308,7 @@
 
   .hosts-group-photo{
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 2048 / 1365;
     object-fit: cover;
     object-position: center;
     border-radius: 18px;
