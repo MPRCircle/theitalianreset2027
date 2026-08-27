@@ -306,6 +306,16 @@
   .arch:nth-child(2){ background: #EFE8D2; margin-top: 22px; }
   .arch:nth-child(3){ background: var(--bg-alt); margin-top: -14px; }
 
+  .hosts-group-photo{
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 18px;
+    margin-bottom: 36px;
+    border: 1px solid var(--line);
+  }
+
   /* ---------- Hosts ---------- */
   .hosts-grid{
     display:grid;
@@ -318,12 +328,6 @@
     border: 1px solid var(--line);
     border-radius: 16px;
     padding: 28px;
-  }
-  .host-avatar{
-    width: 190px; height:290px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, var(--olive), var(--ink));
-    margin-bottom: 18px;
   }
   .host-card h3{ font-size: 1.15rem; font-weight:600; margin-bottom:6px; }
   .host-role{ font-family: var(--mono); font-size: 0.72rem; text-transform:uppercase; letter-spacing:0.06em; color: var(--olive-deep); display:block; margin-bottom: 12px; }
@@ -506,4 +510,3 @@
   footer a:hover{ color: var(--paper); }
   .footer-links{ display:flex; gap:20px; flex-wrap:wrap; font-family: var(--mono); font-size:0.78rem; text-transform:uppercase; }
   .footer-bottom{ border-top:1px solid rgba(255,255,255,0.12); padding-top:20px; font-family: var(--mono); font-size:0.75rem; opacity:0.7; }
-
