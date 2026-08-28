@@ -295,16 +295,25 @@
   .about-copy p{ margin-bottom: 16px; color: var(--ink-soft); font-size: 1.05rem; }
   .about-copy p:first-of-type{ color: var(--ink); font-size: 1.2rem; font-family: var(--display); }
 
-  .arch-row{ display:flex; gap:14px; }
-  .arch{
-    flex:1;
-    aspect-ratio: 3/4;
-    border-radius: 999px 999px 8px 8px;
-    background: var(--bg-deep);
+  .property-photo-wrap{ display:flex; flex-direction:column; }
+  .property-photo{
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    object-fit: cover;
+    border-radius: 18px;
     border: 1px solid var(--line);
   }
-  .arch:nth-child(2){ background: #EFE8D2; margin-top: 22px; }
-  .arch:nth-child(3){ background: var(--bg-alt); margin-top: -14px; }
+  .instagram-link{
+    margin-top: 14px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-family: var(--mono);
+    font-size: 0.8rem;
+    color: var(--olive-deep);
+    text-decoration: none;
+  }
+  .instagram-link:hover{ text-decoration: underline; }
 
   .hosts-group-photo{
     width: 100%;
